@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:400,700");
+
+
+*{
+    font-family: Dosis, Arial, Helvetica, sans-serif;
+
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height:30px;
+    margin: 5px;
+    padding:10px;
+    
+}
+.centernav{
+   display: flex;
+   flex-direction: row;
+   list-style: none;
+   align-items: center;
+ 
+}
+
+.btn{
+    color: none;
+    border-radius: 5px;
+    border : 0.4px solid black;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.logo{
+    align-self: center;
+   
+}
+li{
+    padding: 10px;
+}
+
+.main{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("city.jpg");
+  background-position: 75%;
+  background-blend-mode:luminosity;
+  background-color: #9e89b8;
+  color: #f2f2f2;
+  min-width: 1000px;
+  min-height: 500px;
+  }
+  .text{
+    margin-left: 70px;
+  }
+  
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-height:15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+  }
+  .icons {
+    color: black;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-size:20px;
+
+  }
+
